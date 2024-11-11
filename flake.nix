@@ -34,12 +34,18 @@
             neovim
             vscode
             nixfmt-rfc-style
+            google-cloud-sdk
+            nodejs_22
+            pnpm
+            python3
+            shfmt
           ];
 
           homebrew = {
             enable = true;
             brews = [
               "mas"
+              "oh-my-posh"
             ];
             casks = [
               "steam"
@@ -52,6 +58,7 @@
               "raycast"
               "protonvpn"
               "wezterm"
+              "amazon-q"
             ];
             onActivation.cleanup = "zap";
           };
@@ -116,7 +123,7 @@
     {
       # Build darwin flake using:
       # $ darwin-rebuild build --flake .#simple
-      darwinConfigurations."mac" = nix-darwin.lib.darwinSystem {
+      darwinConfigurations."Frog" = nix-darwin.lib.darwinSystem {
         modules = [
           configuration
           nix-homebrew.darwinModules.nix-homebrew
@@ -144,6 +151,6 @@
       };
 
       # Expose the package set, including overlays, for convenience.
-      darwinPackages = self.darwinConfigurations."mac".pkgs;
+      darwinPackages = self.darwinConfigurations."Frog".pkgs;
     };
 }

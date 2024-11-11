@@ -53,8 +53,8 @@
     #   org.gradle.console=verbose
     #   org.gradle.daemon.idletimeout=3600000
     # '';
-
     ".wezterm.lua".source = dotfiles/wezterm.lua;
+    ".zshrc".source = dotfiles/zshrc;
   };
 
   # You can also manage environment variables but you will have to manually
