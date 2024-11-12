@@ -10,9 +10,6 @@ alias l='eza --icons=auto'
 # homebrew
 export PATH="/opt/homebrew/bin:$PATH"
 
-# most to replace less
-export PAGER="most"
-
 # oh my post
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
 	eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/montys.omp.json)"
@@ -23,8 +20,8 @@ fi
 # pnpm
 export PNPM_HOME="/Users/frog/Library/pnpm"
 case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
+*":$PNPM_HOME:"*) ;;
+*) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
 
