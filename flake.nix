@@ -46,6 +46,7 @@
             brews = [
               "mas"
               "oh-my-posh"
+              "zsh-fast-syntax-highlighting"
             ];
             casks = [
               "steam"
