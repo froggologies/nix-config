@@ -5,9 +5,13 @@
 alias ..='cd ..'
 alias ...='cd ../../'
 alias ....='cd ../../../'
+alias l='eza --icons=auto'
 
 # homebrew
 export PATH="/opt/homebrew/bin:$PATH"
+
+# most to replace less
+export PAGER="most"
 
 # oh my post
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then

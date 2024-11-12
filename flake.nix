@@ -31,14 +31,33 @@
           # List packages installed in system profile. To search by name, run:
           # $ nix-env -qaP | grep wget
           environment.systemPackages = with pkgs; [
+            # Text editors
             neovim
             vscode
-            nixfmt-rfc-style
+
+            # Cloud
             google-cloud-sdk
+
+            # Development
             nodejs_22
             pnpm
             python3
+            nixfmt-rfc-style
             shfmt
+
+            # alternative
+            eza # ls
+            bat # cat
+            tldr # man
+            most # less
+            gping # ping
+
+            # Internet
+            browsh
+            speedtest-cli
+
+            # Crypto
+            cointop
           ];
 
           homebrew = {
@@ -49,15 +68,26 @@
               "zsh-fast-syntax-highlighting"
             ];
             casks = [
+              # Game
               "steam"
-              "arc"
-              "unnaturalscrollwheels"
-              "the-unarchiver"
               "tidal"
-              "chatgpt"
-              "shottr"
+
+              # Browser
+              "arc"
+              "zen-browser"
+
+              # Productivity
               "raycast"
+              "unnaturalscrollwheels"
+              "shottr"
+              "alt-tab"
+
+              # Tools
+              "chatgpt"
               "protonvpn"
+              "the-unarchiver"
+
+              # Development
               "wezterm"
               "amazon-q"
             ];
