@@ -5,16 +5,17 @@
 alias ..='cd ..'
 alias ...='cd ../../'
 alias ....='cd ../../../'
-alias l='eza --icons=auto'
+alias ls='eza --icons=auto --group-directories-first'
 
 # homebrew
+BREW_PREFIX=$(brew --prefix)
 export PATH="/opt/homebrew/bin:$PATH"
 
 # oh my post
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-	eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/montys.omp.json)"
+	eval "$(oh-my-posh init zsh --config $HOME/.config/oh-my-posh/dracula.omp.json)"
 else
-	eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/catppuccin_mocha.omp.json)"
+	eval "$(oh-my-posh init zsh --config $BREW_PREFIX/opt/oh-my-posh/themes/catppuccin_mocha.omp.json)"
 fi
 
 # pnpm
@@ -26,7 +27,7 @@ esac
 # pnpm end
 
 # zsh-fast-syntax-highlighting
-source /opt/homebrew/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source $BREW_PREFIX/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 
 # Amazon Q post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
