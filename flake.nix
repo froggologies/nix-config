@@ -62,12 +62,26 @@
 
           homebrew = {
             enable = true;
+            taps = [
+              "koekeishiya/formulae"
+              "FelixKratz/formulae"
+              "nikitabobko/tap"
+            ];
             brews = [
               "mas"
               "oh-my-posh"
               "zsh-fast-syntax-highlighting"
+
+              # taps FelixKratz/formulae
+              {
+                name = "borders";
+                start_service = true;
+              }
             ];
             casks = [
+              # taps nikitabobko/tap
+              "aerospace"
+
               # Game
               "steam"
               "tidal"

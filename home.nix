@@ -56,6 +56,7 @@
     ".wezterm.lua".source = dotfiles/wezterm.lua;
     ".zshrc".source = dotfiles/zshrc;
     ".config/oh-my-posh/config.omp.json".source = dotfiles/oh-my-posh/dracula.catppuccin.omp.json;
+    ".config/borders/bordersrc".source = dotfiles/bordersrc
   };
 
   # You can also manage environment variables but you will have to manually
