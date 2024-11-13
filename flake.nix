@@ -125,10 +125,10 @@
                 persistent-apps = [
                   "/System/Applications/Launchpad.app"
                   "/System/Applications/System Settings.app"
-                  "/Applications/Steam.app"
                   "/Applications/Tidal.app"
                   "/Applications/Arc.app"
                   "${pkgs.vscode}/Applications/Visual Studio Code.app"
+                  "/Applications/WezTerm.app"
                 ];
                 tilesize = 48;
                 magnification = true;
