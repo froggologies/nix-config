@@ -100,6 +100,7 @@
               "chatgpt"
               "protonvpn"
               "the-unarchiver"
+              "remote-desktop-manager"
 
               # Development
               "wezterm"
