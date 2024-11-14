@@ -51,6 +51,7 @@
             tldr # man
             most # less
             gping # ping
+            btop # htop
 
             # Internet
             browsh
