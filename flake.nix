@@ -37,6 +37,7 @@
 
             # Cloud
             google-cloud-sdk
+            terraform
 
             # Development
             nodejs_22
@@ -108,6 +109,9 @@
               "wezterm"
               "amazon-q"
             ];
+            masApps = {
+              "8BitDo Ultimate Software" = 1532713768;
+            };
             onActivation.cleanup = "zap";
           };
 
