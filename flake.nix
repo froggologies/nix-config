@@ -102,6 +102,7 @@
               "protonvpn"
               "the-unarchiver"
               "remote-desktop-manager"
+              "obs"
 
               # Development
               "wezterm"

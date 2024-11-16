@@ -64,6 +64,10 @@ outer.bottom = 20
 outer.top = 20
 outer.right = 20
 
+[workspace-to-monitor-force-assignment]
+'⏂' = 'main'
+'⏅' = '^built-in retina display$'
+
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
 # 'main' binding mode must be always presented
