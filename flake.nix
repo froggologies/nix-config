@@ -107,12 +107,17 @@
 
               # Development
               "wezterm"
+              "warp"
               "amazon-q"
             ];
             masApps = {
-              "8BitDo Ultimate Software" = 1532713768;
+              "8BitDo-Ultimate-Software" = 1532713768;
             };
-            onActivation.cleanup = "zap";
+            onActivation = {
+              cleanup = "zap";
+              # autoUpdate = true;
+              # upgrade = true;
+            };
           };
 
           fonts.packages = [
