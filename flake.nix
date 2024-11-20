@@ -69,11 +69,18 @@
               "koekeishiya/formulae"
               "FelixKratz/formulae"
               "nikitabobko/tap"
+              "homebrew/services"
             ];
             brews = [
+              # Tools
               "mas"
+
+              # Terminal customization
               "oh-my-posh"
               "zsh-fast-syntax-highlighting"
+
+              # Development
+              "docker-compose"
 
               # taps FelixKratz/formulae
               {
@@ -113,6 +120,7 @@
               "wezterm"
               "warp"
               "amazon-q"
+              "docker"
             ];
             masApps = {
               # "8BitDo-Ultimate-Software" = 1532713768;
@@ -198,8 +206,19 @@
 
               # User owning the Homebrew prefix
               user = "frog";
+
+              # Optional: Declarative tap management
+              # taps = {
+              #   "homebrew/homebrew-core" = homebrew-core;
+              #   "homebrew/homebrew-cask" = homebrew-cask;
+              #   "homebrew/homebrew-bundle" = homebrew-bundle;
+              # };
+
+              # With mutableTaps disabled, taps can no longer be added imperatively with `brew tap`.
+              # mutableTaps = false;
             };
           }
+
           home-manager.darwinModules.home-manager
           {
             home-manager = {

@@ -13,7 +13,6 @@ config.keys = {
     { key = "RightArrow", mods = "OPT", action = wezterm.action { SendString = "\x1bf" } },
 }
 
-
 -- For example, changing the color scheme:
 config.color_scheme = 'Catppuccin Mocha'
 
