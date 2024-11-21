@@ -121,6 +121,7 @@
               "warp"
               "amazon-q"
               "docker"
+              "orbstack"
             ];
             masApps = {
               # "8BitDo-Ultimate-Software" = 1532713768;
@@ -151,7 +152,9 @@
                   "/Applications/Tidal.app"
                   "/Applications/Arc.app"
                   "${pkgs.vscode}/Applications/Visual Studio Code.app"
+                  "/Applications/OrbStack.app"
                   "/Applications/WezTerm.app"
+                  "/Applications/Warp.app"
                 ];
                 tilesize = 48;
                 magnification = true;
