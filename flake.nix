@@ -84,6 +84,10 @@
 
               # taps FelixKratz/formulae
               {
+                name = "sketchybar";
+                start_service = true;
+              }
+              {
                 name = "borders";
                 start_service = true;
               }
