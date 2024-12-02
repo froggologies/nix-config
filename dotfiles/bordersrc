@@ -3,7 +3,7 @@
 # color based on catppuccin
 options=(
 	style=round
-	width=8.0
+	width=9.0
 	hidpi=off
 	active_color=0xfff38ba8
 	inactive_color=0xff1e1e2e
