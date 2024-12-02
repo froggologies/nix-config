@@ -46,6 +46,10 @@
             python3
             nixfmt-rfc-style
             shfmt
+            lua
+
+            # Tools
+            jq
 
             # alternative
             eza # ls
@@ -68,8 +72,8 @@
             taps = [
               "koekeishiya/formulae"
               "FelixKratz/formulae"
-              "nikitabobko/tap"
               "homebrew/services"
+              "koekeishiya/formulae"
             ];
             brews = [
               # Tools
@@ -79,8 +83,14 @@
               "oh-my-posh"
               "zsh-fast-syntax-highlighting"
 
+              # sketchybar dependencies
+              "switchaudio-osx"
+
               # Development
               "docker-compose"
+
+              # taps koekeishiya/formulae
+              "yabai"
 
               # taps FelixKratz/formulae
               {
@@ -93,13 +103,13 @@
               }
             ];
             casks = [
-              # taps nikitabobko/tap
-              "aerospace"
+              # sketchybar dependencies
+              "sf-symbols"
 
               # Messaging
               "telegram"
 
-              # Game
+              # Entertainment
               "steam"
               "tidal"
 
@@ -119,6 +129,7 @@
               "the-unarchiver"
               "remote-desktop-manager"
               "obs"
+	            # "random-mouse-clicker"
 
               # Development
               "wezterm"
@@ -139,6 +150,7 @@
 
           fonts.packages = [
             (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+            pkgs.sketchybar-app-font
           ];
 
           home-manager.backupFileExtension = "backup";
@@ -160,9 +172,9 @@
                   "/Applications/WezTerm.app"
                   "/Applications/Warp.app"
                 ];
-                tilesize = 48;
-                magnification = true;
-                largesize = 64;
+                tilesize = 40;
+                magnification = false;
+                # largesize = 64;
               };
               finder = {
                 AppleShowAllExtensions = true;

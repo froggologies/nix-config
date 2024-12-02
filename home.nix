@@ -56,7 +56,6 @@
     ".wezterm.lua".source = dotfiles/wezterm.lua;
     ".zshrc".source = dotfiles/zshrc;
     ".config/oh-my-posh/config.omp.json".source = dotfiles/oh-my-posh/dracula.catppuccin.omp.json;
-    ".config/aerospace/aerospace.toml".source = dotfiles/aerospace.toml;
     ".config/borders/bordersrc".source = dotfiles/bordersrc;
   };
 
