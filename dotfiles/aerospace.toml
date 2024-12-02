@@ -60,13 +60,13 @@ preset = 'qwerty'
 inner.horizontal = 20
 inner.vertical = 20
 outer.left = 20
-outer.bottom = 20
-outer.top = 60
+outer.bottom = 70
+outer.top = 20
 outer.right = 20
 
 [workspace-to-monitor-force-assignment]
-'⏂' = '^built-in retina display$'
-'⏅' = 'main'
+'1' = '^built-in retina display$'
+'2' = 'main'
 
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
@@ -119,16 +119,16 @@ alt-shift-minus = 'resize smart -50'
 alt-shift-equal = 'resize smart +50'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
-alt-1 = 'workspace ⏂'
-alt-2 = 'workspace ⏅'
-alt-3 = 'workspace ⏈'
-alt-4 = 'workspace ⏊'
+alt-1 = 'workspace 1'
+alt-2 = 'workspace 2'
+# alt-3 = 'workspace 3'
+# alt-4 = 'workspace 4'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
-alt-shift-1 = 'move-node-to-workspace ⏂'
-alt-shift-2 = 'move-node-to-workspace ⏅'
-alt-shift-3 = 'move-node-to-workspace ⏈'
-alt-shift-4 = 'move-node-to-workspace ⏊'
+# alt-shift-1 = 'move-node-to-workspace 1'
+# alt-shift-2 = 'move-node-to-workspace 2'
+# alt-shift-3 = 'move-node-to-workspace 3'
+# alt-shift-4 = 'move-node-to-workspace 4'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
 # alt-tab = 'workspace-back-and-forth'
