@@ -57,7 +57,6 @@
     ".zshrc".source = dotfiles/zshrc;
     ".config/oh-my-posh/config.omp.json".source = dotfiles/oh-my-posh/dracula.catppuccin.omp.json;
     ".config/borders/bordersrc".source = dotfiles/bordersrc;
-    ".config/test/test".source = dotfiles/test;
   };
 
   # You can also manage environment variables but you will have to manually
