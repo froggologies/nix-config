@@ -74,6 +74,7 @@
               "FelixKratz/formulae"
               "homebrew/services"
               "koekeishiya/formulae"
+              "hashicorp/tap"
             ];
             brews = [
               # Tools
@@ -88,6 +89,8 @@
 
               # Development
               "docker-compose"
+              "terraform" # taps "hashicorp/tap"
+              "pulumi"
 
               # taps koekeishiya/formulae
               "yabai"
@@ -129,7 +132,7 @@
               "the-unarchiver"
               "remote-desktop-manager"
               "obs"
-	            # "random-mouse-clicker"
+              "random-mouse-clicker"
 
               # Development
               "wezterm"
