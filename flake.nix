@@ -83,6 +83,7 @@
               # Terminal customization
               "oh-my-posh"
               "zsh-fast-syntax-highlighting"
+              "zsh-autosuggestions"
 
               # sketchybar dependencies
               "switchaudio-osx"
@@ -132,7 +133,7 @@
               "the-unarchiver"
               "remote-desktop-manager"
               "obs"
-              "random-mouse-clicker"
+              # "random-mouse-clicker"
 
               # Development
               "wezterm"
@@ -142,7 +143,7 @@
               "orbstack"
             ];
             masApps = {
-              # "8BitDo-Ultimate-Software" = 1532713768;
+              "Microsoft Word" = 462054704;
             };
             onActivation = {
               cleanup = "zap";
