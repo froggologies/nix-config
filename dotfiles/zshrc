@@ -15,6 +15,15 @@ alias lt='ls -T'
 BREW_PREFIX=$(brew --prefix)
 export PATH="/opt/homebrew/bin:$PATH"
 
+# Sketchybar interactivity overloads
+function brew() {
+  command brew "$@"
+
+  if [[ $* =~ "upgrade" ]] || [[ $* =~ "update" ]] || [[ $* =~ "outdated" ]]; then
+    sketchybar --trigger brew_update
+  fi
+}
+
 # oh my post
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
 	eval "$(oh-my-posh init zsh --config $HOME/.config/oh-my-posh/config.omp.json)"
@@ -31,7 +40,8 @@ esac
 # pnpm end
 
 # zsh-fast-syntax-highlighting
-source $BREW_PREFIX/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source $BREW_PREFIX/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source $BREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Amazon Q post block. Keep at the bottom of this file.
 if [ "$TERM_PROGRAM" != "WarpTerminal" ]; then
