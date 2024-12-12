@@ -92,6 +92,7 @@
               "docker-compose"
               "terraform" # taps "hashicorp/tap"
               "pulumi"
+              "git-filter-repo"
 
               # taps koekeishiya/formulae
               "yabai"
@@ -153,7 +154,7 @@
           };
 
           fonts.packages = [
-            (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+            pkgs.nerd-fonts.jetbrains-mono
             pkgs.sketchybar-app-font
           ];
 
