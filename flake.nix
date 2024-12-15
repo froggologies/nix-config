@@ -134,6 +134,7 @@
               "the-unarchiver"
               "remote-desktop-manager"
               "obs"
+              "mumuplayer"
               # "random-mouse-clicker"
 
               # Development
