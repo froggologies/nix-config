@@ -44,9 +44,9 @@
             nodejs_22
             pnpm
             python3
+            lua
             nixfmt-rfc-style
             shfmt
-            lua
 
             # Tools
             jq
@@ -79,6 +79,7 @@
             brews = [
               # Tools
               "mas"
+              "scrcpy"
 
               # Terminal customization
               "oh-my-posh"
@@ -86,13 +87,13 @@
               "zsh-autosuggestions"
 
               # sketchybar dependencies
-              "switchaudio-osx"
+              # "switchaudio-osx"
 
               # Development
               "docker-compose"
               "terraform" # taps "hashicorp/tap"
               "pulumi"
-              "git-filter-repo"
+              # "git-filter-repo"
 
               # taps koekeishiya/formulae
               "yabai"
@@ -109,7 +110,7 @@
             ];
             casks = [
               # sketchybar dependencies
-              "sf-symbols"
+              # "sf-symbols"
 
               # Messaging
               "telegram"
@@ -127,6 +128,7 @@
               "unnaturalscrollwheels"
               "shottr"
               "alt-tab"
+              "karabiner-elements"
 
               # Tools
               "chatgpt"
@@ -134,7 +136,6 @@
               "the-unarchiver"
               "remote-desktop-manager"
               "obs"
-              "mumuplayer"
               # "random-mouse-clicker"
 
               # Development
@@ -143,6 +144,7 @@
               "amazon-q"
               "docker"
               "orbstack"
+              "android-platform-tools"
             ];
             masApps = {
               "Microsoft Word" = 462054704;
