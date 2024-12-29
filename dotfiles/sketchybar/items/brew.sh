@@ -4,7 +4,7 @@
 # e.g. via function in .zshrc
 
 brew=(
-  icon=􀐛
+  icon=󰏗
   label=?
   icon.padding_right=0
   label.padding_left=6

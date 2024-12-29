@@ -1,7 +1,7 @@
 #!/bin/bash
 
 front_app=(
-  icon=􀆊
+  icon=
   padding_left=$PADDINGS
   icon.padding_right=0
   icon.padding_left=0
