@@ -58,6 +58,7 @@
     ".config/oh-my-posh/config.omp.json".source = dotfiles/oh-my-posh/dracula.catppuccin.omp.json;
     ".config/borders/bordersrc".source = dotfiles/bordersrc;
     ".config/yabai/yabairc".source = dotfiles/yabairc;
+    ".config/karabiner/karabiner.json".source = dotfiles/karabiner.json;
     ".config/sketchybar" = {
       source = dotfiles/sketchybar;
       recursive = true;
