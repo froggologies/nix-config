@@ -93,6 +93,7 @@
               "docker-compose"
               "terraform" # taps "hashicorp/tap"
               "pulumi"
+              "act"
               # "git-filter-repo"
 
               # taps koekeishiya/formulae
@@ -118,6 +119,7 @@
               # Entertainment
               "steam"
               "tidal"
+              "vlc"
 
               # Browser
               "arc"
@@ -136,6 +138,7 @@
               "the-unarchiver"
               "remote-desktop-manager"
               "obs"
+              "jdownloader"
               # "random-mouse-clicker"
 
               # Development
