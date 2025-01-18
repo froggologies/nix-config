@@ -94,6 +94,7 @@
               "terraform" # taps "hashicorp/tap"
               "pulumi"
               "act"
+              "d2"
               # "git-filter-repo"
 
               # taps koekeishiya/formulae
@@ -115,6 +116,7 @@
 
               # Messaging
               "telegram"
+              "betterdiscord-installer"
 
               # Entertainment
               "steam"
