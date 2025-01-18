@@ -116,6 +116,7 @@
 
               # Messaging
               "telegram"
+              "discord"
               "betterdiscord-installer"
 
               # Entertainment
