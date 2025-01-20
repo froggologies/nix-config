@@ -38,3 +38,13 @@ nix run nix-darwin -- switch --flake ~/.config/nix
 ```sh
 darwin-rebuild switch --flake ~/.config/nix
 ```
+
+## Update flakes
+
+```sh
+nix flake update --flake ~/.config/nix/
+```
+
+```sh
+darwin-rebuild switch --flake ~/.config/nix-darwin
+```
