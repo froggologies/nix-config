@@ -62,10 +62,10 @@
     #   recursive = true;
     # };
 
-    ".wezterm.lua".source = home/.wezterm.lua;
-    ".zshrc".source = home/.zshrc;
+    ".wezterm.lua".source = dotfiles/.wezterm.lua;
+    ".zshrc".source = dotfiles/.zshrc;
     ".config" = {
-      source = "home";
+      source = "dotfiles";
       recursive = true;
     };
   };
