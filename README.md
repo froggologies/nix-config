@@ -22,7 +22,7 @@ Clone this repository into your .config directory:
 cd ~/.config && git clone https://github.com/froggologies/nix-config.git nix
 ```
 
-If necessary, update the configuration name to match your system’s hostname:
+Update the configuration name to match your system’s hostname:
 
 ```sh
 sed -i '' "s/Frog/$(scutil --get LocalHostName)/" ~/.config/nix/flake.nix
