@@ -2,6 +2,10 @@
 
 This repository contains the Nix configuration for macOS using `nix-darwin`. Follow the steps below to get started.
 
+## Prerequisites
+
+You need to have [homebrew](https://brew.sh/) installed on your system.
+
 ## Getting started
 
 ### Step 1. Install Nix
