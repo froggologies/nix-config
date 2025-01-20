@@ -63,10 +63,10 @@
     #   source = dotfiles/sketchybar;
     #   recursive = true;
     # };
-    "~" = {
-      source = home;
+    "." = {
+      source = home/;
       recursive = true;
-    }
+    };
   };
 
   # You can also manage environment variables but you will have to manually
