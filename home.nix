@@ -65,7 +65,7 @@
     ".wezterm.lua".source = dotfiles/.wezterm.lua;
     ".zshrc".source = dotfiles/.zshrc;
     ".config" = {
-      source = "dotfiles";
+      source = "dotfiles/.config";
       recursive = true;
     };
   };
