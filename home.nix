@@ -53,21 +53,18 @@
     #   org.gradle.console=verbose
     #   org.gradle.daemon.idletimeout=3600000
     # '';
-    # ".config/oh-my-posh/config.omp.json".source = dotfiles/oh-my-posh/dracula.catppuccin.omp.json;
-    # ".config/borders/bordersrc".source = dotfiles/bordersrc;
-    # ".config/yabai/yabairc".source = dotfiles/yabairc;
-    # ".config/karabiner/karabiner.json".source = dotfiles/karabiner.json;
-    # ".config/sketchybar" = {
-    #   source = dotfiles/sketchybar;
-    #   recursive = true;
-    # };
 
-    ".wezterm.lua".source = dotfiles/.wezterm.lua;
-    ".zshrc".source = dotfiles/.zshrc;
-    ".config" = {
-      source = "dotfiles/.config";
+    ".wezterm.lua".source = home/.wezterm.lua;
+    ".zshrc".source = home/.zshrc;
+
+    ".config/borders/bordersrc".source = home/.config/borders/bordersrc;
+    ".config/karabiner/karabiner.json".source = home/.config/karabiner/karabiner.json;
+    ".config/oh-my-posh/config.omp.json".source = home/.config/oh-my-posh/config.omp.json;
+    ".config/sketchybar" = {
+      source = home/.config/sketchybar;
       recursive = true;
     };
+    ".config/yabai/yabairc".source = home/.config/yabai/yabairc;
   };
 
   # You can also manage environment variables but you will have to manually
