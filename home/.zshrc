@@ -15,6 +15,10 @@ alias lt='ls -T'
 BREW_PREFIX=$(brew --prefix)
 export PATH="/opt/homebrew/bin:$PATH"
 
+# java jdk
+# export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which java))))
+# export PATH=$JAVA_HOME/bin:$PATH
+
 # Sketchybar interactivity overloads
 function brew() {
   command brew "$@"

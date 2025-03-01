@@ -1,0 +1,165 @@
+{
+  "version" : "1.2.0",
+  "triggerKey" : [
+    55,
+    56,
+    58
+  ],
+  "actions" : [
+    {
+      "name" : "Max",
+      "height" : 93.97753354519773,
+      "anchor" : 1,
+      "positionMode" : 0,
+      "width" : 98.75529661016951,
+      "unit" : 1,
+      "keybind" : [
+        3
+      ],
+      "direction" : "Maximize",
+      "sizeMode" : 0
+    },
+    {
+      "keybind" : [
+        15
+      ],
+      "direction" : "Center"
+    },
+    {
+      "cycle" : [
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "TopHalf"
+        },
+        {
+          "direction" : "TopThird",
+          "keybind" : [
+
+          ]
+        },
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "TopTwoThirds"
+        }
+      ],
+      "direction" : "Cycle",
+      "keybind" : [
+        126
+      ],
+      "name" : "Top Cycle"
+    },
+    {
+      "keybind" : [
+        125
+      ],
+      "name" : "Bottom Cycle",
+      "cycle" : [
+        {
+          "direction" : "BottomHalf",
+          "keybind" : [
+
+          ]
+        },
+        {
+          "direction" : "BottomThird",
+          "keybind" : [
+
+          ]
+        },
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "BottomTwoThirds"
+        }
+      ],
+      "direction" : "Cycle"
+    },
+    {
+      "cycle" : [
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "RightHalf"
+        },
+        {
+          "direction" : "RightThird",
+          "keybind" : [
+
+          ]
+        },
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "RightTwoThirds"
+        }
+      ],
+      "direction" : "Cycle",
+      "keybind" : [
+        124
+      ],
+      "name" : "Right Cycle"
+    },
+    {
+      "keybind" : [
+        123
+      ],
+      "direction" : "Cycle",
+      "cycle" : [
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "LeftHalf"
+        },
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "LeftThird"
+        },
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "LeftTwoThirds"
+        }
+      ],
+      "name" : "Left Cycle"
+    },
+    {
+      "direction" : "TopLeftQuarter",
+      "keybind" : [
+        123,
+        126
+      ]
+    },
+    {
+      "keybind" : [
+        124,
+        126
+      ],
+      "direction" : "TopRightQuarter"
+    },
+    {
+      "direction" : "BottomRightQuarter",
+      "keybind" : [
+        125,
+        124
+      ]
+    },
+    {
+      "direction" : "BottomLeftQuarter",
+      "keybind" : [
+        125,
+        123
+      ]
+    }
+  ]
+}

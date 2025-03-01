@@ -47,6 +47,7 @@
             lua
             nixfmt-rfc-style
             shfmt
+	    jdk
 
             # Tools
             jq
@@ -98,7 +99,7 @@
               # "git-filter-repo"
 
               # taps koekeishiya/formulae
-              "yabai"
+              # "yabai"
 
               # taps FelixKratz/formulae
               {
@@ -133,7 +134,8 @@
               "unnaturalscrollwheels"
               "shottr"
               "alt-tab"
-              "karabiner-elements"
+              "loop"
+              # "karabiner-elements"
 
               # Tools
               "chatgpt"

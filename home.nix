@@ -58,13 +58,13 @@
     ".zshrc".source = home/.zshrc;
 
     ".config/borders/bordersrc".source = home/.config/borders/bordersrc;
-    ".config/karabiner/karabiner.json".source = home/.config/karabiner/karabiner.json;
+    # ".config/karabiner/karabiner.json".source = home/.config/karabiner/karabiner.json;
     ".config/oh-my-posh/config.omp.json".source = home/.config/oh-my-posh/config.omp.json;
     ".config/sketchybar" = {
       source = home/.config/sketchybar;
       recursive = true;
     };
-    ".config/yabai/yabairc".source = home/.config/yabai/yabairc;
+    # ".config/yabai/yabairc".source = home/.config/yabai/yabairc;
   };
 
   # You can also manage environment variables but you will have to manually
