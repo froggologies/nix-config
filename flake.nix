@@ -47,7 +47,7 @@
             lua
             nixfmt-rfc-style
             shfmt
-	    jdk
+            jdk
 
             # Tools
             jq
