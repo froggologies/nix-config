@@ -81,6 +81,7 @@
               # Tools
               "mas"
               "scrcpy"
+              "kew"
 
               # Terminal customization
               "oh-my-posh"
@@ -154,9 +155,9 @@
               "orbstack"
               "android-platform-tools"
             ];
-            masApps = {
-              "Microsoft Word" = 462054704;
-            };
+            # masApps = {
+            #   "Microsoft Word" = 462054704;
+            # };
             onActivation = {
               cleanup = "zap";
               # autoUpdate = true;
@@ -170,8 +171,8 @@
           ];
 
           home-manager.backupFileExtension = "backup";
-          nix.configureBuildUsers = true;
-          nix.useDaemon = true;
+          # nix.configureBuildUsers = true;
+          # nix.useDaemon = true;
           users.users.frog.home = "/Users/frog";
 
           system = {
@@ -203,7 +204,7 @@
           };
 
           # Auto upgrade nix package and the daemon service.
-          services.nix-daemon.enable = true;
+          # services.nix-daemon.enable = true;
           # nix.package = pkgs.nix;
 
           # Necessary for using flakes on this system.
