@@ -183,7 +183,7 @@
                   "/System/Applications/Launchpad.app"
                   "/System/Applications/System Settings.app"
                   "/Applications/Tidal.app"
-                  "/Applications/Arc.app"
+                  "/Applications/Zen Browser.app"
                   "${pkgs.vscode}/Applications/Visual Studio Code.app"
                   "/Applications/OrbStack.app"
                   "/Applications/WezTerm.app"
