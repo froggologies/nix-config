@@ -129,6 +129,7 @@
               # Browser
               "arc"
               "zen-browser"
+              "brave-browser"
 
               # Productivity
               "raycast"
