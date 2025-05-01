@@ -155,6 +155,7 @@
               "docker"
               "orbstack"
               "android-platform-tools"
+              "utm"
             ];
             # masApps = {
             #   "Microsoft Word" = 462054704;
