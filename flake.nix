@@ -204,6 +204,7 @@
             };
             startup.chime = false;
           };
+	  system.primaryUser = "frog";
 
           # Auto upgrade nix package and the daemon service.
           # services.nix-daemon.enable = true;
