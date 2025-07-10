@@ -118,8 +118,6 @@
 
               # Messaging
               "telegram"
-              "discord"
-              "betterdiscord-installer"
 
               # Entertainment
               "steam"
@@ -127,9 +125,8 @@
               "vlc"
 
               # Browser
-              "arc"
-              "zen-browser"
               "brave-browser"
+              "vivaldi"
 
               # Productivity
               "raycast"
