@@ -182,7 +182,7 @@
                   "/System/Applications/Launchpad.app"
                   "/System/Applications/System Settings.app"
                   "/Applications/Tidal.app"
-                  "/Applications/Brave Browser.app"
+                  "/Applications/Vivaldi.app"
                   "${pkgs.vscode}/Applications/Visual Studio Code.app"
                   "/Applications/OrbStack.app"
                   "/Applications/WezTerm.app"
