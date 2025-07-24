@@ -118,6 +118,7 @@
 
               # Messaging
               "telegram"
+              "whatsapp"
 
               # Entertainment
               "steam"
