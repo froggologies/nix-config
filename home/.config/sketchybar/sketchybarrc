@@ -26,8 +26,8 @@ bar=(
 	sticky=on
 	padding_right=0
 	padding_left=0
-	y_offset=8
-	margin=16
+	y_offset=5
+	margin=10
 )
 
 sketchybar --bar "${bar[@]}"
