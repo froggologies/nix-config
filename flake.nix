@@ -97,6 +97,7 @@
               "pulumi"
               "act"
               "d2"
+              # "graphviz"
               # "git-filter-repo"
 
               # taps koekeishiya/formulae
@@ -202,7 +203,7 @@
             };
             startup.chime = false;
           };
-	  system.primaryUser = "frog";
+          system.primaryUser = "frog";
 
           # Auto upgrade nix package and the daemon service.
           # services.nix-daemon.enable = true;

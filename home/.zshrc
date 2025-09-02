@@ -4,15 +4,15 @@ if [ "$TERM_PROGRAM" != "WarpTerminal" ]; then
 fi
 
 # aliases
-alias ..='cd ..'
-alias ...='cd ../../'
-alias ....='cd ../../../'
-alias ls='eza --icons=auto --group-directories-first'
-alias la='ls -la'
-alias lt='ls -T'
+alias ..="cd .."
+alias ...="cd ../../"
+alias ....="cd ../../../"
+alias ls="eza --icons=auto --group-directories-first"
+alias la="ls -la"
+alias lt="ls -T"
 
 # homebrew
-BREW_PREFIX=$(brew --prefix)
+BREW_PREFIX="/opt/homebrew"
 export PATH="/opt/homebrew/bin:$PATH"
 
 # java jdk
