@@ -125,6 +125,7 @@
               "steam"
               "tidal"
               "vlc"
+              "sonobus"
 
               # Browser
               "brave-browser"
@@ -155,6 +156,7 @@
               "orbstack"
               "android-platform-tools"
               "utm"
+              "arduino-ide"
             ];
             # masApps = {
             #   "Microsoft Word" = 462054704;
